@@ -1,0 +1,12 @@
+# address-book
+spring boot 2 + mybatis
+
+-## 01-05 ##-
+1. 使用mybatis generator从mysql表中直接生成mapper，domain，xml文件；
+2. 通过一个conf文件来将properties文件统一入口；
+3. 运行测试的时候，测试类也要加上@RunWith(SpringRunner.class) @SpringBootTest 注解，且main目中的主运行文件要加上mapperscan的注解来注入mapper；
+4. 如果Mapper.xml与Mapper.class不在同一个包下或者不同名，就必须使用配置mapperLocations指定mapper.xml的位置。
+                          
+
+    
+
